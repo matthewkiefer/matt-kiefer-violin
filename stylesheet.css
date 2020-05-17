@@ -1,0 +1,40 @@
+.mainbox {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+/*    justify-content: center; */
+    align-items: center;
+    padding-top: 40%;
+}
+
+.logo {
+    /*transform: translate(50%, 50%); */
+    width: auto;
+    height: auto;
+}
+
+/*
+.titlenav {
+    list-style:none;
+}
+
+nav {
+    list-style: none;
+    display: inline;
+}
+*/
+
+ul li{
+    display: inline;
+    padding: 1em 1em;
+    font-size: 300%;
+  }
+
+li:hover { text-shadow: 0 0 5px grey; }   
+
+/* how to set footer and header on non-main page - 3 areas*/
+.header-main-footer {
+    height: 95vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
